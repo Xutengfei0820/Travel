@@ -18,30 +18,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data () {
-    return {
-      recommendList: [{
-        id: '01',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/201403/10/b892e5069c3508f7b017a91121502223.jpg_200x200_3d7db4ec.jpg',
-        title: '古北水镇',
-        desc: '长城脚下独具北方风情的度假式小镇'
-      }, {
-        id: '02',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/201403/10/b892e5069c3508f7b017a91121502223.jpg_200x200_3d7db4ec.jpg',
-        title: '古北水镇',
-        desc: '长城脚下独具北方风情的度假式小镇'
-      }, {
-        id: '03',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/201403/10/b892e5069c3508f7b017a91121502223.jpg_200x200_3d7db4ec.jpg',
-        title: '古北水镇',
-        desc: '长城脚下独具北方风情的度假式小镇'
-      }, {
-        id: '04',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/201403/10/b892e5069c3508f7b017a91121502223.jpg_200x200_3d7db4ec.jpg',
-        title: '古北水镇',
-        desc: '长城脚下独具北方风情的度假式小镇'
-      }]
-    }
+  props: {
+    recommendList: Array
   }
 }
 </script>
