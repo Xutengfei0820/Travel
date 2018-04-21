@@ -71,7 +71,7 @@ export default {
         line-height: .32rem
         padding: 0 .4rem
         border-radius: .2rem
-        background: rgba(0, 0, 0, .8)
+        background: rgba(0, 0, 0, .5)
         font-size: .24rem
         .banner-icon
           font-size: .24rem
